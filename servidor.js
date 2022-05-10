@@ -2,8 +2,11 @@ const express = require("express");
 const Contenedor = require("./app");
 
 const app = express(); // hago una instancia del objeto
-const PORT = 8080; // uso const para descentralizar
+const PORT = 3000; // uso const para descentralizar
 const cont = new Contenedor();
+
+//donde está el http.createServer acá?? 
+//tengo que usar "peticion.url" ?? donde?
 
 const server = app.listen(PORT, () => {
   console.log(`Servidor http escuchando en el puerto ${server.address().port}`);

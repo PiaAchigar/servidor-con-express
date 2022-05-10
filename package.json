@@ -1,0 +1,21 @@
+{
+  "name": "servidor-con-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon servidor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiaAchigar/servidor-con-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiaAchigar/servidor-con-express/issues"
+  },
+  "homepage": "https://github.com/PiaAchigar/servidor-con-express#readme"
+}
